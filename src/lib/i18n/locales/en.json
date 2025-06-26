@@ -1,0 +1,227 @@
+{
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "legal": "Legal Services",
+      "diving": "Diving",
+      "blog": "Blog",
+      "contact": "Contact",
+      "language": "Language",
+      "menu": "Menu"
+    },
+      "hero": {
+    "greeting": "Welcome", 
+    "title": "HuiRuJin",
+    "subtitle": "Lawyer & Professional Diver",
+      "tagline": "Navigating Legal Waters with Precision",
+      "description": "Combining legal expertise with a passion for underwater exploration to provide comprehensive maritime law services and diving expertise.",
+      "cta_legal": "Legal Services",
+      "cta_diving": "Diving Experience",
+      "cta_contact": "Get in Touch"
+    },
+    "about": {
+      "title": "About Me",
+      "subtitle": "Professional Excellence Both Above and Below the Surface",
+      "introduction": "I am a dedicated maritime lawyer and accomplished technical diver, bringing together two worlds that share common values: precision, safety, and respect for the environment.",
+      "legal_background": {
+        "title": "Legal Background",
+        "description": "With over 8 years of experience in maritime and environmental law, I specialize in complex international shipping disputes, marine environmental protection, and corporate maritime transactions."
+      },
+      "diving_journey": {
+        "title": "Diving Journey",
+        "description": "My underwater adventures span 12 years and over 500 dives across 15 countries. From technical deep dives to cave exploration, I bring the same attention to detail and safety protocols that define my legal practice."
+      },
+      "philosophy": {
+        "title": "My Philosophy",
+        "quote": "Just as diving requires careful planning, precise execution, and respect for the environment, practicing law demands thorough preparation, meticulous attention to detail, and unwavering ethical standards."
+      },
+      "stats": {
+        "years_practice": "Years Legal Practice",
+        "cases_handled": "Cases Handled",
+        "total_dives": "Total Dives",
+        "countries_dived": "Countries Dived",
+        "success_rate": "Success Rate",
+        "max_depth": "Max Depth"
+      }
+    },
+    "legal": {
+      "title": "Legal Services",
+      "subtitle": "Comprehensive Maritime & Environmental Law Expertise",
+      "practice_areas": {
+        "title": "Practice Areas",
+        "maritime": {
+          "title": "Maritime Law",
+          "description": "Comprehensive legal services for maritime disputes, vessel transactions, and international shipping regulations."
+        },
+        "environmental": {
+          "title": "Environmental Law",
+          "description": "Protecting marine ecosystems through comprehensive environmental compliance and litigation services."
+        },
+        "corporate": {
+          "title": "Corporate Law",
+          "description": "Business formation, mergers & acquisitions, and corporate governance for marine industry clients."
+        }
+      },
+      "experience": {
+        "title": "Professional Experience",
+        "education": "Education",
+        "certifications": "Certifications",
+        "bar_admissions": "Bar Admissions",
+        "notable_cases": "Notable Cases"
+      },
+      "consultation": {
+        "title": "Schedule a Consultation",
+        "description": "Get expert legal advice tailored to your maritime law needs.",
+        "button": "Book Consultation"
+      }
+    },
+    "diving": {
+      "title": "Diving Experience",
+      "subtitle": "Technical Expertise in Underwater Exploration",
+      "certifications": {
+        "title": "Certifications & Qualifications",
+        "instructor_level": "Instructor Level",
+        "advanced_level": "Advanced Level",
+        "technical_level": "Technical Level",
+        "view_details": "View Details"
+      },
+      "statistics": {
+        "title": "Diving Statistics",
+        "total_dives": "Total Dives",
+        "logged_hours": "Logged Hours",
+        "max_depth": "Maximum Depth",
+        "countries": "Countries Explored",
+        "years_experience": "Years of Experience"
+      },
+      "specializations": {
+        "title": "Diving Specializations",
+        "technical": "Technical Diving",
+        "cave": "Cave Diving",
+        "wreck": "Wreck Diving",
+        "photography": "Underwater Photography"
+      },
+      "locations": {
+        "title": "Dive Locations",
+        "explore_map": "Explore Dive Map"
+      },
+      "conservation": {
+        "title": "Conservation Efforts",
+        "description": "Committed to protecting marine environments through active participation in conservation projects."
+      }
+    },
+    "blog": {
+      "title": "Blog & Insights",
+      "subtitle": "Sharing Knowledge from Legal Practice and Diving Adventures",
+      "categories": {
+        "legal": "Legal Insights",
+        "diving": "Diving Adventures",
+        "conservation": "Marine Conservation",
+        "personal": "Personal Reflections"
+      },
+      "read_more": "Read More",
+      "published_on": "Published on",
+      "reading_time": "min read"
+    },
+    "contact": {
+      "title": "Contact",
+      "subtitle": "Get in Touch for Legal Consultation or Diving Services",
+      "form": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Message",
+        "service_type": "Service Type",
+        "legal_consultation": "Legal Consultation",
+        "diving_services": "Diving Services",
+        "general_inquiry": "General Inquiry",
+        "submit": "Send Message",
+        "sending": "Sending...",
+        "success": "Message sent successfully!",
+        "error": "Failed to send message. Please try again."
+      },
+      "office": {
+        "title": "Office Information",
+        "address": "Office Address",
+        "hours": "Office Hours",
+        "phone": "Phone",
+        "email": "Email"
+      },
+      "emergency": {
+        "title": "Emergency Diving Contact",
+        "description": "For diving emergencies or urgent safety consultations",
+        "phone": "Emergency Line"
+      },
+      "social": {
+        "title": "Connect With Me",
+        "linkedin": "Professional Network",
+        "instagram": "Diving Adventures",
+        "wechat": "WeChat"
+      }
+    },
+    "footer": {
+      "tagline": "Professional Legal Services & Diving Expertise",
+      "quick_links": "Quick Links",
+      "services": "Services",
+      "legal_services": "Legal Services",
+      "diving_services": "Diving Services",
+      "consultation": "Consultation",
+      "contact_info": "Contact Information",
+      "follow_me": "Follow Me",
+      "copyright": "© 2024 HuiRuJin. All rights reserved.",
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service",
+      "disclaimer": "Legal Disclaimer"
+    },
+    "common": {
+      "learn_more": "Learn More",
+      "view_all": "View All",
+      "back_to_top": "Back to Top",
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "coming_soon": "Coming Soon",
+      "under_construction": "Under Construction",
+      "close": "Close",
+      "open": "Open",
+      "next": "Next",
+      "previous": "Previous",
+      "home": "Home",
+      "search": "Search",
+      "filter": "Filter",
+      "sort": "Sort",
+      "expand": "Expand",
+      "collapse": "Collapse"
+    },
+    "seo": {
+      "home": {
+        "title": "HuiRuJin - Maritime Lawyer & Professional Diver",
+        "description": "Expert maritime and environmental law services combined with professional diving expertise. Specializing in international shipping disputes and marine conservation."
+      },
+      "about": {
+        "title": "About HuiRuJin - Lawyer & Diver",
+        "description": "Learn about HuiRuJin's background in maritime law and technical diving expertise spanning over 8 years of legal practice and 500+ dives worldwide."
+      },
+      "legal": {
+        "title": "Maritime Law Services - HuiRuJin",
+        "description": "Professional maritime law services including shipping disputes, environmental compliance, and corporate transactions. Expert legal representation for marine industry."
+      },
+      "diving": {
+        "title": "Professional Diving Services - HuiRuJin",
+        "description": "Technical diving expertise with instructor-level certifications. Cave diving, wreck exploration, and underwater photography services."
+      },
+      "contact": {
+        "title": "Contact HuiRuJin - Legal Consultation & Diving Services",
+        "description": "Get in touch for maritime law consultation or professional diving services. Office hours, emergency contact, and consultation booking available."
+      }
+    },
+    "accessibility": {
+      "skip_to_content": "Skip to main content",
+      "skip_to_navigation": "Skip to navigation",
+      "menu_toggle": "Toggle navigation menu",
+      "language_toggle": "Switch language",
+      "image_alt_profile": "Professional headshot of HuiRuJin",
+      "image_alt_diving": "HuiRuJin diving underwater",
+      "image_alt_legal": "Legal office environment",
+      "external_link": "Opens in new window"
+    }
+  }

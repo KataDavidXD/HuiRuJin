@@ -1,0 +1,227 @@
+{
+    "navigation": {
+      "home": "首页",
+      "about": "关于我",
+      "legal": "法律服务",
+      "diving": "潜水",
+      "blog": "博客",
+      "contact": "联系方式",
+      "language": "语言",
+      "menu": "菜单"
+    },
+    "hero": {
+      "greeting": "欢迎",
+      "title": "惠如瑾",
+      "subtitle": "律师 & 专业潜水员",
+      "tagline": "精准驾驭法律深海",
+      "description": "将法律专业知识与水下探索的热情相结合，提供全面的海事法服务和潜水专业技能。",
+      "cta_legal": "法律服务",
+      "cta_diving": "潜水经验",
+      "cta_contact": "联系我"
+    },
+    "about": {
+      "title": "关于我",
+      "subtitle": "水面之上与水面之下的专业卓越",
+      "introduction": "我是一名专注的海事律师和技术娴熟的潜水员，将两个共享共同价值观的世界结合在一起：精准、安全和对环境的尊重。",
+      "legal_background": {
+        "title": "法律背景",
+        "description": "拥有超过8年的海事法和环境法经验，专门处理复杂的国际航运争议、海洋环境保护和企业海事交易。"
+      },
+      "diving_journey": {
+        "title": "潜水之旅",
+        "description": "我的水下冒险历程跨越12年，在15个国家进行了超过500次潜水。从技术深潜到洞穴探索，我以同样的细致入微和安全协议来对待法律实践。"
+      },
+      "philosophy": {
+        "title": "我的理念",
+        "quote": "正如潜水需要精心规划、精确执行和对环境的尊重一样，法律实践也需要充分准备、细致入微的关注和不可动摇的道德标准。"
+      },
+      "stats": {
+        "years_practice": "法律执业年数",
+        "cases_handled": "处理案件数",
+        "total_dives": "总潜水次数",
+        "countries_dived": "潜水国家数",
+        "success_rate": "成功率",
+        "max_depth": "最大深度"
+      }
+    },
+    "legal": {
+      "title": "法律服务",
+      "subtitle": "全面的海事法和环境法专业知识",
+      "practice_areas": {
+        "title": "执业领域",
+        "maritime": {
+          "title": "海事法",
+          "description": "为海事争议、船舶交易和国际航运法规提供全面的法律服务。"
+        },
+        "environmental": {
+          "title": "环境法",
+          "description": "通过全面的环境合规和诉讼服务保护海洋生态系统。"
+        },
+        "corporate": {
+          "title": "公司法",
+          "description": "为海洋行业客户提供企业组建、并购和公司治理服务。"
+        }
+      },
+      "experience": {
+        "title": "专业经验",
+        "education": "教育背景",
+        "certifications": "专业认证",
+        "bar_admissions": "律师资格",
+        "notable_cases": "重要案例"
+      },
+      "consultation": {
+        "title": "预约咨询",
+        "description": "获得针对您海事法需求的专业法律建议。",
+        "button": "预约咨询"
+      }
+    },
+    "diving": {
+      "title": "潜水经验",
+      "subtitle": "水下探索的技术专长",
+      "certifications": {
+        "title": "认证和资格",
+        "instructor_level": "教练级别",
+        "advanced_level": "高级级别",
+        "technical_level": "技术级别",
+        "view_details": "查看详情"
+      },
+      "statistics": {
+        "title": "潜水统计",
+        "total_dives": "总潜水次数",
+        "logged_hours": "记录小时数",
+        "max_depth": "最大深度",
+        "countries": "探索国家数",
+        "years_experience": "经验年数"
+      },
+      "specializations": {
+        "title": "潜水专业",
+        "technical": "技术潜水",
+        "cave": "洞穴潜水",
+        "wreck": "沉船潜水",
+        "photography": "水下摄影"
+      },
+      "locations": {
+        "title": "潜水地点",
+        "explore_map": "探索潜水地图"
+      },
+      "conservation": {
+        "title": "环保努力",
+        "description": "通过积极参与保护项目致力于保护海洋环境。"
+      }
+    },
+    "blog": {
+      "title": "博客与见解",
+      "subtitle": "分享法律实践和潜水冒险的知识",
+      "categories": {
+        "legal": "法律见解",
+        "diving": "潜水冒险",
+        "conservation": "海洋保护",
+        "personal": "个人感悟"
+      },
+      "read_more": "阅读更多",
+      "published_on": "发布于",
+      "reading_time": "分钟阅读"
+    },
+    "contact": {
+      "title": "联系方式",
+      "subtitle": "联系我获取法律咨询或潜水服务",
+      "form": {
+        "name": "姓名",
+        "email": "电子邮箱",
+        "phone": "电话号码",
+        "subject": "主题",
+        "message": "留言",
+        "service_type": "服务类型",
+        "legal_consultation": "法律咨询",
+        "diving_services": "潜水服务",
+        "general_inquiry": "一般咨询",
+        "submit": "发送消息",
+        "sending": "发送中...",
+        "success": "消息发送成功！",
+        "error": "发送失败，请重试。"
+      },
+      "office": {
+        "title": "办公室信息",
+        "address": "办公地址",
+        "hours": "办公时间",
+        "phone": "电话",
+        "email": "邮箱"
+      },
+      "emergency": {
+        "title": "潜水紧急联系",
+        "description": "用于潜水紧急情况或紧急安全咨询",
+        "phone": "紧急热线"
+      },
+      "social": {
+        "title": "联系我",
+        "linkedin": "专业网络",
+        "instagram": "潜水冒险",
+        "wechat": "微信"
+      }
+    },
+    "footer": {
+      "tagline": "专业法律服务和潜水专业知识",
+      "quick_links": "快速链接",
+      "services": "服务",
+      "legal_services": "法律服务",
+      "diving_services": "潜水服务",
+      "consultation": "咨询",
+      "contact_info": "联系信息",
+      "follow_me": "关注我",
+      "copyright": "© 2024 惠如瑾。保留所有权利。",
+      "privacy_policy": "隐私政策",
+      "terms_of_service": "服务条款",
+      "disclaimer": "法律免责声明"
+    },
+    "common": {
+      "learn_more": "了解更多",
+      "view_all": "查看全部",
+      "back_to_top": "返回顶部",
+      "loading": "加载中...",
+      "error": "发生错误",
+      "coming_soon": "即将推出",
+      "under_construction": "正在建设中",
+      "close": "关闭",
+      "open": "打开",
+      "next": "下一个",
+      "previous": "上一个",
+      "home": "首页",
+      "search": "搜索",
+      "filter": "筛选",
+      "sort": "排序",
+      "expand": "展开",
+      "collapse": "收起"
+    },
+    "seo": {
+      "home": {
+        "title": "惠如瑾 - 海事律师与专业潜水员",
+        "description": "专业的海事法和环境法服务结合专业潜水技能。专门处理国际航运争议和海洋保护。"
+      },
+      "about": {
+        "title": "关于惠如瑾 - 律师与潜水员",
+        "description": "了解惠如瑾在海事法方面的背景和技术潜水专长，拥有超过8年的法律实践和500+次世界各地潜水经验。"
+      },
+      "legal": {
+        "title": "海事法服务 - 惠如瑾",
+        "description": "专业海事法服务，包括航运争议、环境合规和企业交易。为海洋行业提供专业法律代理。"
+      },
+      "diving": {
+        "title": "专业潜水服务 - 惠如瑾",
+        "description": "具有教练级认证的技术潜水专长。洞穴潜水、沉船探索和水下摄影服务。"
+      },
+      "contact": {
+        "title": "联系惠如瑾 - 法律咨询与潜水服务",
+        "description": "联系我获取海事法咨询或专业潜水服务。提供办公时间、紧急联系和咨询预约。"
+      }
+    },
+    "accessibility": {
+      "skip_to_content": "跳转到主要内容",
+      "skip_to_navigation": "跳转到导航",
+      "menu_toggle": "切换导航菜单",
+      "language_toggle": "切换语言",
+      "image_alt_profile": "惠如瑾的专业头像",
+      "image_alt_diving": "惠如瑾水下潜水照片",
+      "image_alt_legal": "法律办公环境",
+      "external_link": "在新窗口中打开"
+    }
+  }

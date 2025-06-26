@@ -1,0 +1,425 @@
+{
+    "diving_experience": {
+      "certifications": [
+        {
+          "level": "instructor",
+          "organization": "TDI",
+          "certification": {
+            "en": "Technical Diving Instructor",
+            "zh": "技术潜水教练"
+          },
+          "year": "2023",
+          "certification_number": "TDI-123456",
+          "specialties": [
+            {
+              "en": "Advanced Nitrox",
+              "zh": "高级高氧"
+            },
+            {
+              "en": "Decompression Procedures",
+              "zh": "减压程序"
+            },
+            {
+              "en": "Trimix",
+              "zh": "三混气体"
+            }
+          ],
+          "max_depth": "60m/197ft",
+          "description": {
+            "en": "Authorized to teach technical diving courses up to advanced trimix level",
+            "zh": "授权教授高级三混气体技术潜水课程"
+          }
+        },
+        {
+          "level": "advanced",
+          "organization": "NSS-CDS",
+          "certification": {
+            "en": "Full Cave Diver",
+            "zh": "全洞潜水员"
+          },
+          "year": "2022",
+          "certification_number": "CDS-789012",
+          "max_depth": "40m/130ft",
+          "description": {
+            "en": "Certified for unlimited cave diving with proper gas planning and navigation",
+            "zh": "通过适当的气体规划和导航认证进行无限制洞穴潜水"
+          }
+        },
+        {
+          "level": "advanced",
+          "organization": "PADI",
+          "certification": {
+            "en": "Master Scuba Diver Trainer",
+            "zh": "潜水大师教练"
+          },
+          "year": "2021",
+          "certification_number": "PADI-345678",
+          "specialties": [
+            {
+              "en": "Deep Diver",
+              "zh": "深潜"
+            },
+            {
+              "en": "Wreck Diver",
+              "zh": "沉船潜水"
+            },
+            {
+              "en": "Night Diver",
+              "zh": "夜潜"
+            },
+            {
+              "en": "Underwater Navigator",
+              "zh": "水下导航"
+            },
+            {
+              "en": "Rescue Diver",
+              "zh": "救援潜水员"
+            },
+            {
+              "en": "Underwater Photographer",
+              "zh": "水下摄影师"
+            }
+          ],
+          "description": {
+            "en": "Highest level of recreational diving achievement with multiple specialty certifications",
+            "zh": "娱乐潜水的最高成就水平，拥有多项专业认证"
+          }
+        },
+        {
+          "level": "professional",
+          "organization": "DAN",
+          "certification": {
+            "en": "Diving Emergency Management Provider",
+            "zh": "潜水紧急管理提供者"
+          },
+          "year": "2021",
+          "certification_number": "DAN-567890",
+          "description": {
+            "en": "Trained in dive accident management and emergency response procedures",
+            "zh": "接受潜水事故管理和应急响应程序培训"
+          }
+        },
+        {
+          "level": "technical",
+          "organization": "IANTD",
+          "certification": {
+            "en": "Advanced EANx Diver",
+            "zh": "高级高氧潜水员"
+          },
+          "year": "2020",
+          "certification_number": "IANTD-234567",
+          "max_depth": "40m/130ft",
+          "gas_mixes": ["EANx32", "EANx36", "EANx40"],
+          "description": {
+            "en": "Certified for advanced nitrox diving with multiple gas mixtures",
+            "zh": "认证使用多种气体混合物进行高级高氧潜水"
+          }
+        }
+      ],
+      "dive_statistics": {
+        "total_dives": 523,
+        "logged_hours": 847,
+        "max_depth": {
+          "meters": 60,
+          "feet": 197,
+          "location": {
+            "en": "Blue Hole, Belize",
+            "zh": "伯利兹蓝洞"
+          }
+        },
+        "countries_dived": 15,
+        "dive_sites": 89,
+        "years_diving": 12,
+        "first_dive": "2012-06-15",
+        "last_dive": "2024-11-20",
+        "favorite_depth_range": "20-30m",
+        "preferred_visibility": ">20m",
+        "diving_seasons": "Year-round",
+        "buddy_dives": 432,
+        "solo_dives": 91
+      },
+      "dive_locations": [
+        {
+          "country": {
+            "en": "Maldives",
+            "zh": "马尔代夫"
+          },
+          "sites": [
+            {
+              "name": "Manta Point",
+              "dives": 12,
+              "max_depth": "25m",
+              "highlights": [
+                {
+                  "en": "Manta Ray Cleaning Station",
+                  "zh": "蝠鲼清洁站"
+                }
+              ]
+            },
+            {
+              "name": "Fish Head",
+              "dives": 8,
+              "max_depth": "30m",
+              "highlights": [
+                {
+                  "en": "Grey Reef Sharks",
+                  "zh": "灰礁鲨"
+                }
+              ]
+            }
+          ],
+          "total_dives": 20,
+          "year_visited": "2023"
+        },
+        {
+          "country": {
+            "en": "Philippines",
+            "zh": "菲律宾"
+          },
+          "sites": [
+            {
+              "name": "Apo Island",
+              "dives": 15,
+              "max_depth": "35m",
+              "highlights": [
+                {
+                  "en": "Sea Turtle Sanctuary",
+                  "zh": "海龟保护区"
+                }
+              ]
+            },
+            {
+              "name": "Balicasag Island",
+              "dives": 18,
+              "max_depth": "40m",
+              "highlights": [
+                {
+                  "en": "Wall Diving",
+                  "zh": "峭壁潜水"
+                }
+              ]
+            }
+          ],
+          "total_dives": 33,
+          "year_visited": "2022"
+        },
+        {
+          "country": {
+            "en": "Mexico",
+            "zh": "墨西哥"
+          },
+          "sites": [
+            {
+              "name": "Cenote Dos Ojos",
+              "dives": 25,
+              "max_depth": "15m",
+              "type": "Cave",
+              "highlights": [
+                {
+                  "en": "Underground River System",
+                  "zh": "地下河流系统"
+                }
+              ]
+            },
+            {
+              "name": "Cozumel Drift Dives",
+              "dives": 22,
+              "max_depth": "40m",
+              "highlights": [
+                {
+                  "en": "Eagle Ray Encounters",
+                  "zh": "鹰鳐邂逅"
+                }
+              ]
+            }
+          ],
+          "total_dives": 47,
+          "year_visited": "2021"
+        },
+        {
+          "country": {
+            "en": "Egypt",
+            "zh": "埃及"
+          },
+          "sites": [
+            {
+              "name": "SS Thistlegorm",
+              "dives": 6,
+              "max_depth": "32m",
+              "type": "Wreck",
+              "highlights": [
+                {
+                  "en": "WWII Cargo Ship",
+                  "zh": "二战货船"
+                }
+              ]
+            },
+            {
+              "name": "Blue Hole Dahab",
+              "dives": 4,
+              "max_depth": "50m",
+              "type": "Technical",
+              "highlights": [
+                {
+                  "en": "Deep Blue Descent",
+                  "zh": "深蓝下降"
+                }
+              ]
+            }
+          ],
+          "total_dives": 10,
+          "year_visited": "2020"
+        }
+      ],
+      "specializations": [
+        {
+          "type": "technical",
+          "name": {
+            "en": "Deep Technical Diving",
+            "zh": "深度技术潜水"
+          },
+          "description": {
+            "en": "Specialized in deep technical dives using trimix and advanced decompression procedures",
+            "zh": "专门从事使用三混气体和高级减压程序的深度技术潜水"
+          },
+          "experience_level": "Advanced",
+          "equipment": [
+            "Twin Steel Tanks",
+            "Backplate & Wing BCD",
+            "Tech Computer (Shearwater)",
+            "Primary & Backup Regulators"
+          ]
+        },
+        {
+          "type": "cave",
+          "name": {
+            "en": "Cave Diving",
+            "zh": "洞穴潜水"
+          },
+          "description": {
+            "en": "Exploring underwater cave systems with proper safety protocols and navigation techniques",
+            "zh": "使用适当的安全协议和导航技术探索水下洞穴系统"
+          },
+          "experience_level": "Advanced",
+          "safety_protocols": [
+            "Rule of Thirds",
+            "Continuous Guideline",
+            "Team Diving",
+            "Emergency Procedures"
+          ]
+        },
+        {
+          "type": "wreck",
+          "name": {
+            "en": "Wreck Diving",
+            "zh": "沉船潜水"
+          },
+          "description": {
+            "en": "Penetration and exploration of shipwrecks while preserving historical artifacts",
+            "zh": "在保护历史文物的同时穿透和探索沉船"
+          },
+          "experience_level": "Advanced",
+          "focus_areas": [
+            "Maritime History",
+            "Artifact Preservation",
+            "Underwater Archaeology",
+            "Safety Procedures"
+          ]
+        },
+        {
+          "type": "photography",
+          "name": {
+            "en": "Underwater Photography",
+            "zh": "水下摄影"
+          },
+          "description": {
+            "en": "Capturing marine life and underwater environments with specialized equipment",
+            "zh": "使用专业设备捕捉海洋生物和水下环境"
+          },
+          "experience_level": "Intermediate",
+          "equipment": [
+            "Underwater Camera Housing",
+            "Strobe Lights",
+            "Macro & Wide Angle Lenses",
+            "Color Correction Filters"
+          ]
+        }
+      ],
+      "diving_philosophy": {
+        "en": "Diving is not just about exploring the underwater world, but about understanding and protecting it. Every dive is an opportunity to witness the fragility and beauty of marine ecosystems, which directly influences my passion for environmental law.",
+        "zh": "潜水不仅仅是探索水下世界，更是理解和保护它。每次潜水都是见证海洋生态系统脆弱性和美丽的机会，这直接影响了我对环境法的热情。"
+      },
+      "conservation_efforts": [
+        {
+          "organization": {
+            "en": "Project AWARE",
+            "zh": "AWARE项目"
+          },
+          "role": {
+            "en": "Volunteer Dive Against Debris Coordinator",
+            "zh": "反垃圾潜水志愿者协调员"
+          },
+          "activities": [
+            {
+              "en": "Organizing underwater cleanup dives",
+              "zh": "组织水下清洁潜水"
+            },
+            {
+              "en": "Marine debris data collection",
+              "zh": "海洋垃圾数据收集"
+            }
+          ]
+        },
+        {
+          "organization": {
+            "en": "Coral Restoration Foundation",
+            "zh": "珊瑚恢复基金会"
+          },
+          "role": {
+            "en": "Certified Coral Restoration Diver",
+            "zh": "认证珊瑚恢复潜水员"
+          },
+          "activities": [
+            {
+              "en": "Coral fragment collection and transplantation",
+              "zh": "珊瑚片段收集和移植"
+            },
+            {
+              "en": "Reef health monitoring",
+              "zh": "珊瑚礁健康监测"
+            }
+          ]
+        }
+      ],
+      "emergency_training": [
+        {
+          "certification": {
+            "en": "Emergency First Response Instructor",
+            "zh": "紧急第一反应教练"
+          },
+          "organization": "PADI EFR",
+          "year": "2022",
+          "skills": [
+            "CPR",
+            "AED",
+            "First Aid",
+            "Emergency Oxygen Provider"
+          ]
+        },
+        {
+          "certification": {
+            "en": "Rescue Diver",
+            "zh": "救援潜水员"
+          },
+          "organization": "PADI",
+          "year": "2019",
+          "skills": [
+            "Self-rescue techniques",
+            "Recognizing and managing stress",
+            "Emergency management",
+            "Rescue breathing"
+          ]
+        }
+      ]
+    }
+  }

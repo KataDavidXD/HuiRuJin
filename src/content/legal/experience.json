@@ -1,0 +1,406 @@
+{
+    "legal_experience": {
+      "practice_areas": [
+        {
+          "id": "maritime_law",
+          "title": {
+            "en": "Maritime Law",
+            "zh": "海事法"
+          },
+          "description": {
+            "en": "Comprehensive legal services for maritime disputes, vessel transactions, and international shipping regulations.",
+            "zh": "为海事争议、船舶交易和国际航运法规提供全面的法律服务。"
+          },
+          "expertise": [
+            {
+              "en": "Vessel Purchase & Sale Agreements",
+              "zh": "船舶买卖协议"
+            },
+            {
+              "en": "Charter Party Disputes",
+              "zh": "租船合同争议"
+            },
+            {
+              "en": "Marine Insurance Claims",
+              "zh": "海上保险理赔"
+            },
+            {
+              "en": "Salvage & Wreck Removal",
+              "zh": "打捞和沉船清除"
+            }
+          ],
+          "icon": "Anchor"
+        },
+        {
+          "id": "environmental_law",
+          "title": {
+            "en": "Environmental Law",
+            "zh": "环境法"
+          },
+          "description": {
+            "en": "Protecting marine ecosystems through comprehensive environmental compliance and litigation services.",
+            "zh": "通过全面的环境合规和诉讼服务保护海洋生态系统。"
+          },
+          "expertise": [
+            {
+              "en": "Marine Pollution Cases",
+              "zh": "海洋污染案件"
+            },
+            {
+              "en": "Environmental Impact Assessments",
+              "zh": "环境影响评估"
+            },
+            {
+              "en": "Regulatory Compliance",
+              "zh": "法规合规"
+            },
+            {
+              "en": "Clean Water Act Litigation",
+              "zh": "清洁水法诉讼"
+            }
+          ],
+          "icon": "Waves"
+        },
+        {
+          "id": "corporate_law",
+          "title": {
+            "en": "Corporate Law",
+            "zh": "公司法"
+          },
+          "description": {
+            "en": "Business formation, mergers & acquisitions, and corporate governance for marine industry clients.",
+            "zh": "为海洋行业客户提供企业组建、并购和公司治理服务。"
+          },
+          "expertise": [
+            {
+              "en": "Business Formation",
+              "zh": "企业组建"
+            },
+            {
+              "en": "Contract Negotiation",
+              "zh": "合同谈判"
+            },
+            {
+              "en": "Mergers & Acquisitions",
+              "zh": "并购交易"
+            },
+            {
+              "en": "Compliance Programs",
+              "zh": "合规项目"
+            }
+          ],
+          "icon": "Building2"
+        }
+      ],
+      "work_history": [
+        {
+          "company": {
+            "en": "Ocean & Maritime Law Group",
+            "zh": "海洋海事法律集团"
+          },
+          "position": {
+            "en": "Senior Partner",
+            "zh": "高级合伙人"
+          },
+          "duration": {
+            "en": "2020 - Present",
+            "zh": "2020年至今"
+          },
+          "location": {
+            "en": "New York, NY",
+            "zh": "纽约州纽约市"
+          },
+          "responsibilities": [
+            {
+              "en": "Lead maritime litigation team handling complex international shipping disputes",
+              "zh": "领导海事诉讼团队处理复杂的国际航运争议"
+            },
+            {
+              "en": "Developed innovative strategies for marine environmental protection cases",
+              "zh": "为海洋环境保护案件制定创新策略"
+            },
+            {
+              "en": "Managed $50M+ portfolio of maritime transactions and disputes",
+              "zh": "管理超过5000万美元的海事交易和争议组合"
+            }
+          ],
+          "achievements": [
+            {
+              "en": "Successfully resolved 95% of cases through negotiation",
+              "zh": "通过谈判成功解决95%的案件"
+            },
+            {
+              "en": "Recognized as Rising Star in Maritime Law (2022, 2023)",
+              "zh": "被认定为海事法新星（2022年、2023年）"
+            }
+          ]
+        },
+        {
+          "company": {
+            "en": "Coastal Legal Associates",
+            "zh": "海岸法律联合事务所"
+          },
+          "position": {
+            "en": "Associate Attorney",
+            "zh": "助理律师"
+          },
+          "duration": {
+            "en": "2018 - 2020",
+            "zh": "2018年 - 2020年"
+          },
+          "location": {
+            "en": "Miami, FL",
+            "zh": "佛罗里达州迈阿密"
+          },
+          "responsibilities": [
+            {
+              "en": "Specialized in vessel documentation and marine financing",
+              "zh": "专门从事船舶文件和海洋融资业务"
+            },
+            {
+              "en": "Represented clients in admiralty court proceedings",
+              "zh": "在海事法庭程序中代表客户"
+            },
+            {
+              "en": "Drafted complex maritime contracts and agreements",
+              "zh": "起草复杂的海事合同和协议"
+            }
+          ]
+        },
+        {
+          "company": {
+            "en": "Federal Maritime Commission",
+            "zh": "联邦海事委员会"
+          },
+          "position": {
+            "en": "Legal Intern",
+            "zh": "法律实习生"
+          },
+          "duration": {
+            "en": "Summer 2017",
+            "zh": "2017年夏季"
+          },
+          "location": {
+            "en": "Washington, DC",
+            "zh": "华盛顿特区"
+          },
+          "responsibilities": [
+            {
+              "en": "Researched international shipping regulations",
+              "zh": "研究国际航运法规"
+            },
+            {
+              "en": "Assisted with regulatory compliance investigations",
+              "zh": "协助监管合规调查"
+            }
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": {
+            "en": "Harvard Law School",
+            "zh": "哈佛法学院"
+          },
+          "degree": {
+            "en": "Juris Doctor (J.D.)",
+            "zh": "法学博士"
+          },
+          "year": "2018",
+          "honors": {
+            "en": "Magna Cum Laude, Order of the Coif",
+            "zh": "以优异成绩毕业，法学荣誉学会成员"
+          },
+          "activities": [
+            {
+              "en": "Harvard Environmental Law Review - Executive Editor",
+              "zh": "哈佛环境法评论 - 执行编辑"
+            },
+            {
+              "en": "Maritime Law Clinic - Student Attorney",
+              "zh": "海事法诊所 - 学生律师"
+            }
+          ]
+        },
+        {
+          "institution": {
+            "en": "University of California, Berkeley",
+            "zh": "加州大学伯克利分校"
+          },
+          "degree": {
+            "en": "Bachelor of Arts in Political Science",
+            "zh": "政治学学士"
+          },
+          "year": "2015",
+          "honors": {
+            "en": "Phi Beta Kappa, Summa Cum Laude",
+            "zh": "优等生荣誉学会，以最高荣誉毕业"
+          }
+        }
+      ],
+      "certifications": [
+        {
+          "name": {
+            "en": "Certified Admiralty Law Specialist",
+            "zh": "认证海事法专家"
+          },
+          "organization": {
+            "en": "National Board of Legal Specialty Certification",
+            "zh": "国家法律专业认证委员会"
+          },
+          "year": "2021",
+          "credential_id": "CALS-2021-1234"
+        },
+        {
+          "name": {
+            "en": "Environmental Law Certificate",
+            "zh": "环境法证书"
+          },
+          "organization": {
+            "en": "American Bar Association",
+            "zh": "美国律师协会"
+          },
+          "year": "2019",
+          "credential_id": "ELC-2019-5678"
+        }
+      ],
+      "bar_admissions": [
+        {
+          "jurisdiction": {
+            "en": "New York State Bar",
+            "zh": "纽约州律师协会"
+          },
+          "year": "2018",
+          "license_number": "NY-123456789"
+        },
+        {
+          "jurisdiction": {
+            "en": "Florida State Bar",
+            "zh": "佛罗里达州律师协会"
+          },
+          "year": "2019",
+          "license_number": "FL-987654321"
+        },
+        {
+          "jurisdiction": {
+            "en": "US District Court, Southern District of New York",
+            "zh": "美国纽约南区联邦地方法院"
+          },
+          "year": "2020",
+          "license_number": "SDNY-456789123"
+        }
+      ],
+      "notable_cases": [
+        {
+          "title": {
+            "en": "International Shipping Corp v. Pacific Maritime Ltd.",
+            "zh": "国际航运公司诉太平洋海事有限公司案"
+          },
+          "year": "2023",
+          "court": {
+            "en": "US District Court, SDNY",
+            "zh": "美国纽约南区联邦地方法院"
+          },
+          "type": {
+            "en": "Maritime Contract Dispute",
+            "zh": "海事合同争议"
+          },
+          "outcome": {
+            "en": "Successfully negotiated $2.3M settlement for client",
+            "zh": "成功为客户谈判230万美元和解"
+          },
+          "significance": {
+            "en": "Established precedent for force majeure claims in international shipping",
+            "zh": "为国际航运中的不可抗力索赔建立了先例"
+          }
+        },
+        {
+          "title": {
+            "en": "Environmental Defense Fund v. Oceanic Drilling Co.",
+            "zh": "环境保护基金诉海洋钻探公司案"
+          },
+          "year": "2022",
+          "court": {
+            "en": "Federal District Court, Eastern District of Louisiana",
+            "zh": "联邦路易斯安那东区地方法院"
+          },
+          "type": {
+            "en": "Environmental Protection",
+            "zh": "环境保护"
+          },
+          "outcome": {
+            "en": "Secured comprehensive environmental remediation agreement",
+            "zh": "获得全面环境修复协议"
+          },
+          "significance": {
+            "en": "Protected critical marine habitat in Gulf of Mexico",
+            "zh": "保护了墨西哥湾的重要海洋栖息地"
+          }
+        }
+      ],
+      "publications": [
+        {
+          "title": {
+            "en": "Climate Change and Maritime Law: Navigating New Waters",
+            "zh": "气候变化与海事法：驾驭新水域"
+          },
+          "publication": {
+            "en": "Harvard Environmental Law Review",
+            "zh": "哈佛环境法评论"
+          },
+          "year": "2023",
+          "volume": "47",
+          "pages": "123-156",
+          "abstract": {
+            "en": "An analysis of how climate change is reshaping maritime legal frameworks and the need for adaptive regulation.",
+            "zh": "分析气候变化如何重塑海事法律框架以及适应性监管的需求。"
+          }
+        },
+        {
+          "title": {
+            "en": "Underwater Archaeology and Maritime Law: Protecting Submerged Cultural Heritage",
+            "zh": "水下考古与海事法：保护水下文化遗产"
+          },
+          "publication": {
+            "en": "Journal of Maritime Law & Commerce",
+            "zh": "海事法与商业期刊"
+          },
+          "year": "2022",
+          "volume": "53",
+          "pages": "78-102"
+        }
+      ],
+      "speaking_engagements": [
+        {
+          "event": {
+            "en": "International Maritime Law Conference",
+            "zh": "国际海事法会议"
+          },
+          "title": {
+            "en": "The Future of Ocean Governance in the 21st Century",
+            "zh": "21世纪海洋治理的未来"
+          },
+          "location": {
+            "en": "Singapore",
+            "zh": "新加坡"
+          },
+          "year": "2023"
+        },
+        {
+          "event": {
+            "en": "American Bar Association Maritime Law Committee",
+            "zh": "美国律师协会海事法委员会"
+          },
+          "title": {
+            "en": "Practical Applications of Environmental Law in Maritime Practice",
+            "zh": "环境法在海事实践中的实际应用"
+          },
+          "location": {
+            "en": "Chicago, IL",
+            "zh": "伊利诺伊州芝加哥"
+          },
+          "year": "2023"
+        }
+      ]
+    }
+  }

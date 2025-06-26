@@ -1,0 +1,144 @@
+{
+    "personal": {
+      "name": {
+        "en": "HuiRuJin",
+        "zh": "惠如瑾",
+        "pronunciation": "Hui Ru Jin"
+      },
+      "title": {
+        "en": "Lawyer & Professional Diver",
+        "zh": "律师 & 专业潜水员"
+      },
+      "tagline": {
+        "en": "Navigating Legal Waters with Precision",
+        "zh": "精准驾驭法律深海"
+      },
+      "location": {
+        "en": "Based in [City, Country]",
+        "zh": "位于[城市，国家]"
+      },
+      "contact": {
+        "email": "contact@huirujin.com",
+        "phone": "+1-XXX-XXX-XXXX",
+        "office": {
+          "address": {
+            "en": "123 Legal Plaza, Suite 456\nCity, State 12345",
+            "zh": "法律广场123号，456套房\n城市，省份 12345"
+          },
+          "hours": {
+            "en": "Monday - Friday: 9:00 AM - 6:00 PM\nSaturday: By Appointment",
+            "zh": "周一至周五：上午9:00 - 下午6:00\n周六：预约制"
+          }
+        },
+        "emergency_diving": "+1-XXX-XXX-XXXX"
+      },
+      "social": {
+        "linkedin": "https://linkedin.com/in/huirujin",
+        "twitter": "https://twitter.com/huirujin",
+        "instagram": "https://instagram.com/huirujin_diving",
+        "wechat": "HuiRuJin_Official"
+      },
+      "bio": {
+        "short": {
+          "en": "Experienced lawyer specializing in maritime law and an accomplished technical diver with over 500 logged dives across 3 continents.",
+          "zh": "经验丰富的海事法专业律师，拥有超过500次潜水记录，足迹遍及三大洲的技术潜水员。"
+        },
+        "medium": {
+          "en": "HuiRuJin combines legal expertise with a passion for underwater exploration. With a distinguished career in maritime and environmental law, she brings precision and dedication to every case. Her diving expertise spans technical, cave, and wreck diving, making her uniquely qualified to handle marine-related legal matters.",
+          "zh": "惠如金将法律专业知识与水下探索的热情相结合。她在海事法和环境法领域拥有杰出的职业生涯，为每个案件都带来精准和敬业精神。她的潜水专业技能涵盖技术潜水、洞穴潜水和沉船潜水，使她在处理海洋相关法律事务方面具有独特优势。"
+        }
+      },
+      "philosophy": {
+        "en": "Just as diving requires careful planning, precise execution, and respect for the environment, practicing law demands thorough preparation, meticulous attention to detail, and unwavering ethical standards.",
+        "zh": "正如潜水需要精心规划、精确执行和对环境的尊重一样，法律实践也需要充分准备、细致入微的关注和不可动摇的道德标准。"
+      },
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native",
+          "certification": null
+        },
+        {
+          "language": "Chinese (Mandarin)",
+          "proficiency": "Native",
+          "certification": null
+        },
+        {
+          "language": "French",
+          "proficiency": "Conversational",
+          "certification": "DELF B2"
+        }
+      ],
+      "photos": {
+        "profile": {
+          "professional": "/images/profile/professional-headshot.jpg",
+          "casual": "/images/profile/casual-portrait.jpg",
+          "diving": "/images/profile/diving-portrait.jpg"
+        },
+        "hero": {
+          "main": "/images/hero/main-hero.jpg",
+          "legal": "/images/hero/legal-background.jpg",
+          "diving": "/images/hero/diving-background.jpg"
+        }
+      },
+      "achievements": {
+        "legal": [
+          {
+            "year": 2023,
+            "title": {
+              "en": "Maritime Law Excellence Award",
+              "zh": "海事法优秀奖"
+            },
+            "organization": {
+              "en": "International Maritime Law Association",
+              "zh": "国际海事法协会"
+            }
+          },
+          {
+            "year": 2022,
+            "title": {
+              "en": "Environmental Law Recognition",
+              "zh": "环境法表彰"
+            },
+            "organization": {
+              "en": "Environmental Law Institute",
+              "zh": "环境法研究所"
+            }
+          }
+        ],
+        "diving": [
+          {
+            "year": 2023,
+            "title": {
+              "en": "Technical Diving Instructor Certification",
+              "zh": "技术潜水教练认证"
+            },
+            "organization": "TDI"
+          },
+          {
+            "year": 2022,
+            "title": {
+              "en": "Cave Diving Full Cave Certification",
+              "zh": "洞穴潜水全洞认证"
+            },
+            "organization": "NSS-CDS"
+          }
+        ]
+      },
+      "statistics": {
+        "legal": {
+          "years_practice": 8,
+          "cases_handled": 150,
+          "success_rate": "95%",
+          "bar_admissions": 3
+        },
+        "diving": {
+          "total_dives": 523,
+          "max_depth": "60m/197ft",
+          "countries_dived": 15,
+          "years_diving": 12,
+          "specialties": 8
+        }
+      }
+    }
+  }
