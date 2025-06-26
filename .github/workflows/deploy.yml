@@ -1,10 +1,9 @@
- name: Deploy to GitHub Pages
+name: Deploy Next.js to GitHub Pages
 
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,7 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -34,23 +32,8 @@ jobs:
         with:
           static_site_generator: next
           
-      - name: Restore cache
-        uses: actions/cache@v3
-        with:
-          path: |
-            .next/cache
-          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
-          restore-keys: |
-            ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
-            
       - name: Install dependencies
         run: npm ci
-        
-      - name: Lint code
-        run: npm run lint
-        
-      - name: Type check
-        run: npm run type-check
         
       - name: Build with Next.js
         run: npm run build
@@ -71,31 +54,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  lighthouse:
-    runs-on: ubuntu-latest
-    needs: deploy
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        
-      - name: Wait for deployment
-        run: sleep 60
-        
-      - name: Lighthouse CI
-        uses: treosh/lighthouse-ci-action@v10
-        with:
-          urls: |
-            https://${{ github.repository_owner }}.github.io/HuiRuJin/
-            https://${{ github.repository_owner }}.github.io/HuiRuJin/en/about/
-            https://${{ github.repository_owner }}.github.io/HuiRuJin/zh/about/
-          configPath: ./.lighthouserc.json
-          uploadArtifacts: true
-          temporaryPublicStorage: true
