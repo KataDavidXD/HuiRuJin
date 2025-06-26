@@ -70,9 +70,12 @@ export default function HomePage() {
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed italic">
             "Earth Needs Funny Jigsaw. 世界需要有趣的拼图。"
           </p>
-          <p className="text-base md:text-lg mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg mb-6 max-w-3xl mx-auto leading-relaxed">
             民商事争议解决 | 婚姻家事诉讼 | 体育娱乐法律事务<br/>
             ENFP社群连接者 | 海洋保护志愿者 | 宠物律师团队成员
+          </p>
+          <p className="text-sm md:text-base mb-8 max-w-2xl mx-auto text-blue-100 font-medium">
+            北京乾成律师事务所（深圳）
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-3 rounded-lg font-medium transition-colors">

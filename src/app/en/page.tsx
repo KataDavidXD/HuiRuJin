@@ -70,9 +70,12 @@ export default function EnglishHomePage() {
           <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed italic">
             "Earth Needs Funny Jigsaw."
           </p>
-          <p className="text-base md:text-lg mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base md:text-lg mb-6 max-w-3xl mx-auto leading-relaxed">
             Civil & Commercial Dispute Resolution | Matrimonial Litigation | Sports & Entertainment Law<br/>
             ENFP Community Connector | Ocean Conservation Volunteer | Pet Legal Team Member
+          </p>
+          <p className="text-sm md:text-base mb-8 max-w-2xl mx-auto text-blue-100 font-medium">
+            Beijing Qiancheng Law Firm (Shenzhen)
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-yellow-600 hover:bg-yellow-700 text-white px-8 py-3 rounded-lg font-medium transition-colors">
