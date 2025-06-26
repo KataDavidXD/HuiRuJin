@@ -96,14 +96,18 @@
             display: flex;
             gap: 20px;
             flex: 1;
+            align-items: flex-start;
         }
 
         .info-section {
             flex: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
 
         .practice-areas {
-            margin-bottom: 16px;
+            margin-bottom: 12px;
         }
 
         .section-title {
@@ -123,7 +127,8 @@
 
         .contact-info {
             display: grid;
-            gap: 6px;
+            gap: 5px;
+            margin-bottom: 8px;
         }
 
         .contact-item {
@@ -146,8 +151,9 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
             text-align: center;
+            padding-top: 8px;
         }
 
         .qr-code {
@@ -156,8 +162,7 @@
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
             margin-bottom: 8px;
-            background: white;
-            padding: 4px;
+            background: transparent;
         }
 
         .qr-label {
@@ -183,7 +188,8 @@
         }
 
         .motto-section {
-            margin-top: 12px;
+            margin-top: auto;
+            padding-top: 8px;
         }
 
         .motto {
