@@ -56,7 +56,7 @@ export default function HomePage() {
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto">
           <div className="mb-8">
             <img 
-              src="/images/profile/jasmine-hui.png" 
+              src={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/images/profile/jasmine-hui.png`}
               alt="惠如瑾律师 Jasmine Hui" 
               className="w-40 h-40 rounded-full mx-auto mb-6 border-4 border-white/20 shadow-xl object-cover"
             />

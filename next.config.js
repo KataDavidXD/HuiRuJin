@@ -8,13 +8,8 @@ const nextConfig = {
     unoptimized: true
   },
   
-  // GitHub Pages configuration
-  assetPrefix: process.env.NODE_ENV === 'production' 
-    ? 'https://katadavidxd.github.io/HuiRuJin' 
-    : '',
-  basePath: process.env.NODE_ENV === 'production' 
-    ? '/HuiRuJin' 
-    : '',
+  // GitHub Pages configuration - only basePath needed
+  basePath: process.env.NODE_ENV === 'production' ? '/HuiRuJin' : '',
 
   // Experimental features
   experimental: {},
