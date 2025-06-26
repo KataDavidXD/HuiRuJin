@@ -1,14 +1,46 @@
  # Deployment Guide
 **HuiRuJin Personal Website - GitHub Pages Deployment**
 
+## 🎉 Latest Status: DEPLOYED & WORKING
+✅ **HRJ Photo**: Now displaying correctly with proper basePath  
+✅ **English Page**: `/en` route working with static export  
+✅ **GitHub Actions**: Automated deployment pipeline active  
+✅ **Live Site**: https://katadavidxd.github.io/HuiRuJin/
+
 ## Table of Contents
-1. [GitHub Pages Setup](#github-pages-setup)
-2. [Build Configuration](#build-configuration)
-3. [Custom Domain Configuration](#custom-domain-configuration)
-4. [CI/CD Pipeline](#cicd-pipeline)
-5. [Environment Variables](#environment-variables)
-6. [Deployment Checklist](#deployment-checklist)
-7. [Troubleshooting](#troubleshooting)
+1. [Recent Fixes](#recent-fixes)
+2. [GitHub Pages Setup](#github-pages-setup)
+3. [Build Configuration](#build-configuration)
+4. [Custom Domain Configuration](#custom-domain-configuration)
+5. [CI/CD Pipeline](#cicd-pipeline)
+6. [Environment Variables](#environment-variables)
+7. [Deployment Checklist](#deployment-checklist)
+8. [Troubleshooting](#troubleshooting)
+
+---
+
+## 🔧 Recent Fixes
+
+### HRJ Photo & English Page Fix (Dec 2024)
+
+**Status**: ✅ **RESOLVED** - Image display and routing issues fixed
+
+**Problems Resolved**:
+1. **HRJ Photo Not Displaying**: Image paths weren't working with GitHub Pages basePath
+2. **English Page Issues**: Routing problems with static export configuration
+
+**Solutions Applied**:
+- ✅ **Next.js Config**: Removed conflicting `assetPrefix`, kept only `basePath`
+- ✅ **Image Paths**: Updated to use dynamic basePath: `/HuiRuJin/images/profile/jasmine-hui.png`
+- ✅ **Static Export**: Verified proper HTML generation with correct asset prefixes
+- ✅ **Build Verification**: Images and English page properly generated
+
+### GitHub Pages Deployment Fix (Previous)
+
+**Status**: ✅ **RESOLVED** - GitHub Actions workflow fixed
+- Fixed missing `type-check` script in package.json
+- Simplified GitHub Actions workflow
+- Removed problematic Lighthouse CI causing failures
 
 ---
 
