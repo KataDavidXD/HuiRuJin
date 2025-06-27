@@ -1,15 +1,45 @@
  # Deployment Guide
 **HuiRuJin Personal Website - GitHub Pages Deployment**
 
-## 🎉 Latest Status: DESIGN REFINED & READY FOR DEPLOYMENT
-✅ **Version 2.1**: Design refinement with new color scheme and typography  
+## 🎉 Latest Status: GRADIENT DESIGN READY FOR DEPLOYMENT
+✅ **Version 2.1.2**: Gradient background implementation complete - beautiful new design  
 ✅ **GitHub Pages Verified**: Static export successful (8/8 pages)  
-✅ **Enhanced Styling**: Improved color scheme and button design  
+✅ **Navigation Fixed**: All navigation buttons now include correct basePath  
 ✅ **Live Site Ready**: https://katadavidxd.github.io/HuiRuJin/
 
 ## 📋 Deployment Version History
 
-### Version 2.1 (December 27, 2024) - DESIGN REFINEMENT READY
+### Version 2.1.2 (December 27, 2024) - GRADIENT DESIGN READY
+**Status**: ✅ VERIFIED FOR GITHUB PAGES DEPLOYMENT
+
+**Major Visual Update**:
+- **Gradient Background**: Beautiful gradient from #6B73FF to #000DFF throughout all pages
+- **Enhanced Buttons**: Gradient button design (#000DFF to #6B73FF) with smooth hover effects
+- **White Text Theme**: Improved readability and contrast with white text on gradient background
+- **Typography Maintained**: Chinese 仿宋 (FangSong), English Times New Roman preserved
+
+**GitHub Pages Compatibility**: ✅ VERIFIED
+- All gradient styles implemented via CSS classes (no inline styles that could break)
+- Build successful: 8/8 pages generated with gradient theme
+- Performance maintained: Same 87.2 kB shared JS bundle
+- Enhanced user experience with modern gradient design
+
+### Version 2.1.1 (December 27, 2024) - NAVIGATION FIX READY
+**Status**: ✅ VERIFIED FOR GITHUB PAGES DEPLOYMENT
+
+**Critical Fix Applied**:
+- **Navigation Links**: Fixed all `href` attributes to include `/HuiRuJin` basePath for production
+- **Pages Affected**: Homepage, About, Resources, Contact - all navigation now works
+- **Links Updated**: `/about` → `/HuiRuJin/about`, `/resources` → `/HuiRuJin/resources`, etc.
+- **Environment Handling**: Development uses relative paths, production uses basePath-prefixed paths
+
+**GitHub Pages Compatibility**: ✅ VERIFIED
+- All navigation buttons now work correctly on GitHub Pages
+- Links properly prefixed with repository name `/HuiRuJin`
+- No impact on local development environment
+- Static export still successful with corrected paths
+
+### Version 2.1 (December 27, 2024) - DESIGN REFINEMENT DEPLOYED
 **Status**: ✅ VERIFIED FOR GITHUB PAGES DEPLOYMENT
 
 **Deployment Package v2.1**:

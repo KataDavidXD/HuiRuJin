@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen" style={{ backgroundColor: '#93B8D4', color: '#F5CB76' }}>
+    <main className="min-h-screen gradient-background">
       {/* Language Toggle Bar */}
       <div className="bg-gray-100 py-2">
         <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
@@ -18,7 +18,7 @@ export default function AboutPage() {
             ← 返回首页
           </a>
           <div className="flex gap-2">
-            <span className="px-3 py-1 rounded bg-blue-600 text-white text-sm font-medium">
+            <span className="px-3 py-1 rounded bg-blue-600 text-gray-800 text-sm font-medium">
               中文
             </span>
             <a 
@@ -34,10 +34,10 @@ export default function AboutPage() {
       {/* Header */}
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="font-serif text-4xl md:text-6xl font-bold mb-6" style={{ color: '#F5CB76' }}>
+          <h1 className="font-serif text-4xl md:text-6xl font-bold mb-6 text-gray-800">
             个人介绍
           </h1>
-          <p className="text-xl mb-8" style={{ color: '#F5CB76' }}>
+          <p className="text-xl mb-8 text-gray-800">
             教育背景与专业经历
           </p>
         </div>
@@ -48,38 +48,38 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="font-serif text-3xl font-bold mb-8" style={{ color: '#F5CB76' }}>
+              <h2 className="font-serif text-3xl font-bold mb-8 text-gray-800">
                 教育背景
               </h2>
               <div className="space-y-6">
-                <div className="bg-white/10 p-8 rounded-lg">
+                <div className="bg-blue-100/50 p-8 rounded-lg">
                   <div className="flex items-center mb-4">
                     <span className="text-3xl mr-4">🎓</span>
                     <div>
-                      <h3 className="font-semibold text-xl" style={{ color: '#F5CB76' }}>硕士学位</h3>
-                      <p className="text-sm opacity-80" style={{ color: '#F5CB76' }}>2022-2023</p>
+                      <h3 className="font-semibold text-xl text-gray-800">硕士学位</h3>
+                      <p className="text-sm opacity-80 text-gray-800">2022-2023</p>
                     </div>
                   </div>
-                  <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>英国格拉斯哥大学</h4>
-                  <p className="mb-2" style={{ color: '#F5CB76' }}>国际商法硕士 (LLM in International Commercial Law)</p>
-                  <ul className="text-sm opacity-90" style={{ color: '#F5CB76' }}>
+                  <h4 className="font-semibold mb-2 text-gray-800">英国格拉斯哥大学</h4>
+                  <p className="mb-2 text-gray-800">国际商法硕士 (LLM in International Commercial Law)</p>
+                  <ul className="text-sm opacity-90 text-gray-800">
                     <li>• 深入学习国际贸易法、国际投资法</li>
                     <li>• 掌握英美法系法律思维与实务操作</li>
                     <li>• 跨文化法律环境下的专业训练</li>
                   </ul>
                 </div>
 
-                <div className="bg-white/10 p-8 rounded-lg">
+                <div className="bg-blue-100/50 p-8 rounded-lg">
                   <div className="flex items-center mb-4">
                     <span className="text-3xl mr-4">📚</span>
                     <div>
-                      <h3 className="font-semibold text-xl" style={{ color: '#F5CB76' }}>本科学位</h3>
-                      <p className="text-sm opacity-80" style={{ color: '#F5CB76' }}>2018-2022</p>
+                      <h3 className="font-semibold text-xl text-gray-800">本科学位</h3>
+                      <p className="text-sm opacity-80 text-gray-800">2018-2022</p>
                     </div>
                   </div>
-                  <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>西北政法大学</h4>
-                  <p className="mb-2" style={{ color: '#F5CB76' }}>法学学士 (Bachelor of Laws)</p>
-                  <ul className="text-sm opacity-90" style={{ color: '#F5CB76' }}>
+                  <h4 className="font-semibold mb-2 text-gray-800">西北政法大学</h4>
+                  <p className="mb-2 text-gray-800">法学学士 (Bachelor of Laws)</p>
+                  <ul className="text-sm opacity-90 text-gray-800">
                     <li>• 系统学习中国法律体系</li>
                     <li>• 扎实的法学理论基础</li>
                     <li>• 优秀的学术表现与实践能力</li>
@@ -89,21 +89,21 @@ export default function AboutPage() {
             </div>
 
             <div>
-              <h2 className="font-serif text-3xl font-bold mb-8" style={{ color: '#F5CB76' }}>
+              <h2 className="font-serif text-3xl font-bold mb-8 text-gray-800">
                 专业经历
               </h2>
               <div className="space-y-6">
-                <div className="bg-white/10 p-8 rounded-lg">
+                <div className="bg-blue-100/50 p-8 rounded-lg">
                   <div className="flex items-center mb-4">
                     <span className="text-3xl mr-4">⚖️</span>
                     <div>
-                      <h3 className="font-semibold text-xl" style={{ color: '#F5CB76' }}>执业律师</h3>
-                      <p className="text-sm opacity-80" style={{ color: '#F5CB76' }}>2023年至今</p>
+                      <h3 className="font-semibold text-xl text-gray-800">执业律师</h3>
+                      <p className="text-sm opacity-80 text-gray-800">2023年至今</p>
                     </div>
                   </div>
-                  <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>北京乾成律师事务所（深圳）</h4>
-                  <p className="mb-2" style={{ color: '#F5CB76' }}>专职律师</p>
-                  <ul className="text-sm opacity-90" style={{ color: '#F5CB76' }}>
+                  <h4 className="font-semibold mb-2 text-gray-800">北京乾成律师事务所（深圳）</h4>
+                  <p className="mb-2 text-gray-800">专职律师</p>
+                  <ul className="text-sm opacity-90 text-gray-800">
                     <li>• 专注民商事争议解决</li>
                     <li>• 婚姻家事法律服务</li>
                     <li>• 体育娱乐法律事务</li>
@@ -111,16 +111,16 @@ export default function AboutPage() {
                   </ul>
                 </div>
 
-                <div className="bg-white/10 p-8 rounded-lg">
+                <div className="bg-blue-100/50 p-8 rounded-lg">
                   <div className="flex items-center mb-4">
                     <span className="text-3xl mr-4">💼</span>
                     <div>
-                      <h3 className="font-semibold text-xl" style={{ color: '#F5CB76' }}>多领域实习</h3>
-                      <p className="text-sm opacity-80" style={{ color: '#F5CB76' }}>2020-2023</p>
+                      <h3 className="font-semibold text-xl text-gray-800">多领域实习</h3>
+                      <p className="text-sm opacity-80 text-gray-800">2020-2023</p>
                     </div>
                   </div>
-                  <h4 className="font-semibold mb-4" style={{ color: '#F5CB76' }}>丰富的实践经验</h4>
-                  <div className="grid grid-cols-2 gap-4 text-sm" style={{ color: '#F5CB76' }}>
+                  <h4 className="font-semibold mb-4 text-gray-800">丰富的实践经验</h4>
+                  <div className="grid grid-cols-2 gap-4 text-sm text-gray-800">
                     <div>
                       <p className="font-medium mb-1">司法系统</p>
                       <p className="opacity-80">• 法院实习</p>
@@ -146,30 +146,30 @@ export default function AboutPage() {
       </section>
 
       {/* Professional Philosophy */}
-      <section className="py-20 bg-black/20">
+      <section className="py-20 bg-blue-200/40">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="font-serif text-3xl font-bold mb-8" style={{ color: '#F5CB76' }}>
+          <h2 className="font-serif text-3xl font-bold mb-8 text-gray-800">
             专业理念
           </h2>
-          <blockquote className="text-xl italic leading-relaxed mb-8" style={{ color: '#F5CB76' }}>
+          <blockquote className="text-xl italic leading-relaxed mb-8 text-gray-800">
             "法律的价值在于保护权益、平衡利益、维护公正。但法律人的价值，在于为法律注入人文关怀，让专业服务带有温度。我希望在每一个案件中，都能为当事人提供不仅是法律上的解决方案，更是情理上的理解与支持。"
           </blockquote>
           
           <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-white/10 p-6 rounded-lg">
+            <div className="bg-blue-100/50 p-6 rounded-lg">
               <div className="text-3xl mb-3">📋</div>
-              <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>专业严谨</h4>
-              <p className="text-sm opacity-90" style={{ color: '#F5CB76' }}>扎实的法学功底，严谨的工作态度</p>
+              <h4 className="font-semibold mb-2 text-gray-800">专业严谨</h4>
+              <p className="text-sm opacity-90 text-gray-800">扎实的法学功底，严谨的工作态度</p>
             </div>
-            <div className="bg-white/10 p-6 rounded-lg">
+            <div className="bg-blue-100/50 p-6 rounded-lg">
               <div className="text-3xl mb-3">🤝</div>
-              <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>真诚沟通</h4>
-              <p className="text-sm opacity-90" style={{ color: '#F5CB76' }}>倾听客户需求，提供贴心服务</p>
+              <h4 className="font-semibold mb-2 text-gray-800">真诚沟通</h4>
+              <p className="text-sm opacity-90 text-gray-800">倾听客户需求，提供贴心服务</p>
             </div>
-            <div className="bg-white/10 p-6 rounded-lg">
+            <div className="bg-blue-100/50 p-6 rounded-lg">
               <div className="text-3xl mb-3">⭐</div>
-              <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>持续成长</h4>
-              <p className="text-sm opacity-90" style={{ color: '#F5CB76' }}>不断学习，与时俱进，追求卓越</p>
+              <h4 className="font-semibold mb-2 text-gray-800">持续成长</h4>
+              <p className="text-sm opacity-90 text-gray-800">不断学习，与时俱进，追求卓越</p>
             </div>
           </div>
         </div>
@@ -181,22 +181,19 @@ export default function AboutPage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
               href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/`}
-              className="bg-white/20 text-current px-8 py-3 rounded-lg font-medium transition-colors hover:bg-white/30"
-              style={{ color: '#F5CB76' }}
+              className="bg-blue-200/30 text-gray-800 px-8 py-3 rounded-lg font-medium transition-all duration-300 hover:bg-white/30"
             >
               返回首页
             </a>
             <a 
               href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/resources`}
-              className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
-              style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
+              className="px-8 py-3 rounded-lg font-medium transition-all duration-300 button-gradient"
             >
               能帮助链接的资源
             </a>
             <a 
               href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/contact`}
-              className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
-              style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
+              className="px-8 py-3 rounded-lg font-medium transition-all duration-300 button-gradient"
             >
               联系方式
             </a>

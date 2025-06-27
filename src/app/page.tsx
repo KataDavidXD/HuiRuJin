@@ -32,12 +32,12 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen" style={{ backgroundColor: '#93B8D4', color: '#F5CB76' }}>
+    <main className="min-h-screen gradient-background">
       {/* Language Toggle Bar */}
       <div className="bg-gray-100 py-2">
         <div className="max-w-6xl mx-auto px-4 flex justify-end">
           <div className="flex gap-2">
-            <span className="px-3 py-1 rounded bg-blue-600 text-white text-sm font-medium">
+            <span className="px-3 py-1 rounded bg-blue-600 text-gray-800 text-sm font-medium">
               中文
             </span>
             <a 
@@ -59,26 +59,25 @@ export default function HomePage() {
               <img 
                 src={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/images/profile/jasmine-hui.png`}
                 alt="惠如瑾律师 Jasmine Hui" 
-                className="w-64 h-80 object-cover border-4 border-white/20 shadow-xl"
-                style={{ borderColor: '#F5CB76' }}
+                className="w-64 h-80 object-cover border-4 border-blue-300/60 shadow-xl"
               />
             </div>
             
             {/* Text Content - Right side */}
             <div className="flex-1 text-left">
-              <h1 className="font-serif text-4xl md:text-6xl font-bold mb-4" style={{ color: '#F5CB76' }}>
+              <h1 className="font-serif text-4xl md:text-6xl font-bold mb-4 text-gray-800">
                 惠如瑾律师
               </h1>
-              <h2 className="text-xl md:text-2xl mb-4 font-light" style={{ color: '#F5CB76' }}>
+              <h2 className="text-xl md:text-2xl mb-4 font-light text-gray-800 lang-en">
                 Jasmine Hui
               </h2>
-              <p className="text-base md:text-lg mb-6 leading-relaxed" style={{ color: '#F5CB76' }}>
+              <p className="text-base md:text-lg mb-6 leading-relaxed text-gray-800">
                 北京乾成律师事务所（深圳）
               </p>
-              <p className="text-lg md:text-xl mb-8 leading-relaxed italic" style={{ color: '#F5CB76' }}>
+              <p className="text-lg md:text-xl mb-8 leading-relaxed italic text-gray-800">
                 "Earth Needs Funny Jigsaw. 世界需要有趣的拼图。"
               </p>
-              <p className="text-base md:text-lg mb-8 leading-relaxed" style={{ color: '#F5CB76' }}>
+              <p className="text-base md:text-lg mb-8 leading-relaxed text-gray-800">
                 民商事争议解决 | 婚姻家事诉讼 | 体育娱乐法律事务
               </p>
               
@@ -86,22 +85,19 @@ export default function HomePage() {
                              <div className="flex flex-col sm:flex-row gap-4">
                  <a 
                    href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/about`}
-                   className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
-                   style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
+                   className="px-8 py-3 rounded-lg font-medium transition-all duration-300 button-gradient"
                  >
                    个人介绍
                  </a>
                  <a 
                    href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/resources`}
-                   className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
-                   style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
+                   className="px-8 py-3 rounded-lg font-medium transition-all duration-300 button-gradient"
                  >
                    能帮助链接的资源
                  </a>
                  <a 
                    href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/contact`}
-                   className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
-                   style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
+                   className="px-8 py-3 rounded-lg font-medium transition-all duration-300 button-gradient"
                  >
                    联系方式
                  </a>
@@ -115,34 +111,34 @@ export default function HomePage() {
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4" style={{ color: '#F5CB76' }}>
+            <h2 className="font-serif text-3xl md:text-4xl font-bold mb-4 text-gray-800">
               法律专业与人文温度的结合
             </h2>
-            <p className="text-lg max-w-4xl mx-auto" style={{ color: '#F5CB76' }}>
+            <p className="text-lg max-w-4xl mx-auto text-gray-800">
               我始终认为法律不该是冰冷僵硬的工具。在帮助客户解决纠纷、平衡各方利益的过程中，我致力于为客户提供清晰、高效、切实可行的解决方案，希望能在他们需要的时候，成为值得信赖的伙伴，带来一点光亮。
             </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="text-center bg-white/10 p-6 rounded-lg">
+            <div className="text-center bg-blue-100/50 p-6 rounded-lg">
               <div className="text-4xl mb-4">⚖️</div>
-              <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>民商事争议解决</h4>
-              <p className="text-sm" style={{ color: '#F5CB76' }}>专业处理各类商事纠纷，提供高效解决方案</p>
+              <h4 className="font-semibold mb-2 text-gray-800">民商事争议解决</h4>
+              <p className="text-sm text-gray-800">专业处理各类商事纠纷，提供高效解决方案</p>
             </div>
-            <div className="text-center bg-white/10 p-6 rounded-lg">
+            <div className="text-center bg-blue-100/50 p-6 rounded-lg">
               <div className="text-4xl mb-4">👨‍👩‍👧‍👦</div>
-              <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>婚姻家事诉讼</h4>
-              <p className="text-sm" style={{ color: '#F5CB76' }}>用法律守护家庭，平衡各方利益与情感</p>
+              <h4 className="font-semibold mb-2 text-gray-800">婚姻家事诉讼</h4>
+              <p className="text-sm text-gray-800">用法律守护家庭，平衡各方利益与情感</p>
             </div>
-            <div className="text-center bg-white/10 p-6 rounded-lg">
+            <div className="text-center bg-blue-100/50 p-6 rounded-lg">
               <div className="text-4xl mb-4">🏃‍♀️</div>
-              <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>体育娱乐法律事务</h4>
-              <p className="text-sm" style={{ color: '#F5CB76' }}>专业处理体育娱乐行业相关法律事务</p>
+              <h4 className="font-semibold mb-2 text-gray-800">体育娱乐法律事务</h4>
+              <p className="text-sm text-gray-800">专业处理体育娱乐行业相关法律事务</p>
             </div>
           </div>
 
           <div className="text-center">
-            <blockquote className="text-xl italic max-w-4xl mx-auto" style={{ color: '#F5CB76' }}>
+            <blockquote className="text-xl italic max-w-4xl mx-auto text-gray-800">
               "法律人的责任，不仅在于专业，更在于对生命和社会的关怀。我希望在专业与公益、规则与人情、个体与社群的交汇点上不断前行，用法律守护值得守护的，用行动传递力所能及的温暖。"
             </blockquote>
           </div>
@@ -150,26 +146,26 @@ export default function HomePage() {
       </section>
 
       {/* Simple Contact at Bottom */}
-      <footer className="py-20 bg-black/20">
+      <footer className="py-20 bg-blue-200/40">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6" style={{ color: '#F5CB76' }}>
+          <h2 className="font-serif text-3xl md:text-4xl font-bold mb-6 text-gray-800">
             联系方式
           </h2>
           <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div className="bg-white/10 p-6 rounded-lg">
-              <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>💬 微信咨询</h4>
-              <p className="text-sm" style={{ color: '#F5CB76' }}>惠子律师Jasmine</p>
-              <p className="text-xs opacity-80" style={{ color: '#F5CB76' }}>ID: _Lyjasmine99</p>
+            <div className="bg-blue-100/50 p-6 rounded-lg">
+              <h4 className="font-semibold mb-2 text-gray-800">💬 微信咨询</h4>
+              <p className="text-sm text-gray-800">惠子律师Jasmine</p>
+              <p className="text-xs opacity-80 text-gray-800">ID: _Lyjasmine99</p>
             </div>
-            <div className="bg-white/10 p-6 rounded-lg">
-              <h4 className="font-semibold mb-2" style={{ color: '#F5CB76' }}>💼 LinkedIn</h4>
-              <p className="text-sm" style={{ color: '#F5CB76' }}>专业网络连接</p>
-              <p className="text-xs opacity-80" style={{ color: '#F5CB76' }}>Jasmine Hui</p>
+            <div className="bg-blue-100/50 p-6 rounded-lg">
+              <h4 className="font-semibold mb-2 text-gray-800">💼 LinkedIn</h4>
+              <p className="text-sm text-gray-800">专业网络连接</p>
+              <p className="text-xs opacity-80 text-gray-800 lang-en">Jasmine Hui</p>
             </div>
           </div>
           
-          <div className="border-t border-white/20 mt-8 pt-8">
-            <p className="text-sm opacity-80" style={{ color: '#F5CB76' }}>
+          <div className="border-t border-blue-300/50 mt-8 pt-8">
+            <p className="text-sm opacity-80 text-gray-800">
               © 2024 惠如瑾律师 Jasmine Hui。用法律守护值得守护的，用行动传递温暖。
             </p>
           </div>
