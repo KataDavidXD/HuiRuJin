@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Segoe UI', 'Microsoft YaHei', 'Arial', sans-serif;
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            background: white;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -41,11 +41,11 @@
         .card-front {
             width: 100%;
             height: 100%;
-            padding: 20px;
+            padding: 18px;
             position: relative;
             display: flex;
             flex-direction: column;
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            background: linear-gradient(135deg, #0891B2 0%, #0E7490 100%);
             color: white;
             border-radius: 16px;
             overflow: hidden;
@@ -59,12 +59,12 @@
         }
 
         .profile-photo {
-            width: 64px;
-            height: 64px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         }
 
         .name-title {
@@ -72,10 +72,10 @@
         }
 
         .name-chinese {
-            font-size: 22px;
+            font-size: 21px;
             font-weight: 600;
             color: white;
-            margin-bottom: 4px;
+            margin-bottom: 3px;
             letter-spacing: 0.5px;
         }
 
@@ -84,7 +84,7 @@
             color: rgba(255, 255, 255, 0.9);
             font-weight: 500;
             letter-spacing: 0.3px;
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }
 
         .law-firm {
@@ -95,20 +95,23 @@
 
         .content-section {
             display: flex;
-            gap: 20px;
+            gap: 14px;
             flex: 1;
-            align-items: flex-start;
+            align-items: stretch;
         }
 
-        .info-section {
+        .info-grid {
             flex: 1;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+            margin-bottom: 12px;
         }
 
         .practice-areas {
-            margin-bottom: 10px;
+            margin-bottom: 0;
+            display: grid;
+            gap: 2px;
         }
 
         .section-title {
@@ -119,29 +122,34 @@
             letter-spacing: 0.3px;
         }
 
-        .practice-list {
-            font-size: 10px;
-            color: rgba(255, 255, 255, 0.85);
-            line-height: 1.4;
-            font-weight: 400;
-        }
-
-        .contact-info {
-            display: grid;
-            gap: 4px;
-            margin-bottom: 6px;
-        }
-
-        .contact-item {
+        .practice-item {
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: 6px;
             font-size: 10px;
             color: rgba(255, 255, 255, 0.85);
             font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            display: grid;
+            gap: 2px;
+            margin-bottom: 0;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 6px;
+            font-size: 10px;
+            color: rgba(255, 255, 255, 0.85);
+            font-weight: 400;
+            line-height: 1.6;
         }
 
         .contact-icon {
+            margin-top: 2px;
             width: 10px;
             height: 10px;
             color: rgba(255, 255, 255, 0.9);
@@ -152,53 +160,73 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: flex-start;
+            justify-content: center;
             text-align: center;
-            padding-top: 8px;
+            min-width: 66px;
         }
 
         .qr-code {
-            width: 72px;
-            height: 72px;
+            width: 68px;
+            height: 68px;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-            margin-bottom: 8px;
             background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .qr-label {
-            font-size: 10px;
+            font-size: 9px;
             color: rgba(255, 255, 255, 0.8);
             font-weight: 500;
             letter-spacing: 0.2px;
+            line-height: 1.2;
         }
 
         .education-badge {
             position: absolute;
-            top: 20px;
-            right: 20px;
+            top: 16px;
+            right: 16px;
             background: rgba(255, 255, 255, 0.15);
             backdrop-filter: blur(10px);
             color: white;
-            padding: 4px 8px;
-            border-radius: 12px;
-            font-size: 9px;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 8px;
             font-weight: 500;
             letter-spacing: 0.2px;
             border: 1px solid rgba(255, 255, 255, 0.2);
+            width: 100px;
+            text-align: center;
+        }
+
+        .diving-badge {
+            position: absolute;
+            top: 38px;
+            right: 16px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            color: white;
+            padding: 3px 10px;
+            border-radius: 10px;
+            font-size: 8px;
+            font-weight: 500;
+            letter-spacing: 0.2px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            width: 100px;
+            text-align: center;
         }
 
         .motto-section {
             margin-top: auto;
-            padding-top: 6px;
+            padding-top: 4px;
         }
 
         .motto {
-            font-size: 9px;
+            font-size: 8px;
             color: rgba(255, 255, 255, 0.75);
             font-style: italic;
             font-weight: 400;
-            line-height: 1.3;
+            line-height: 1.2;
         }
 
         @media print {
@@ -230,6 +258,7 @@
         <div class="card-front">
             <div class="accent-line"></div>
             <div class="education-badge">Glasgow LLM</div>
+            <div class="diving-badge">PADI Diver</div>
             
             <div class="header-section">
                 <img src="../public/images/profile/jasmine-hui.png" alt="惠如瑾律师" class="profile-photo">
@@ -241,13 +270,26 @@
             </div>
 
             <div class="content-section">
-                <div class="info-section">
+                <div class="info-grid">
                     <div class="practice-areas">
                         <div class="section-title">专业领域</div>
-                        <div class="practice-list">
-                            • 民商事争议解决<br>
-                            • 婚姻家事诉讼<br>
-                            • 体育娱乐法律事务
+                        <div class="practice-item">
+                            <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>民商事争议解决</span>
+                        </div>
+                        <div class="practice-item">
+                            <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>婚姻家事诉讼</span>
+                        </div>
+                        <div class="practice-item">
+                            <svg class="contact-icon" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>体育娱乐法律事务</span>
                         </div>
                     </div>
 
@@ -273,16 +315,15 @@
                             <span>LinkedIn: Jasmine Hui</span>
                         </div>
                     </div>
-                    
-                    <div class="motto-section">
-                        <div class="motto">"Earth Needs Funny Jigsaw"</div>
-                    </div>
                 </div>
 
                 <div class="qr-section">
                     <img src="web-qr-code.png" alt="Website QR Code" class="qr-code">
-                    <div class="qr-label">扫码访问网站</div>
                 </div>
+            </div>
+
+            <div class="motto-section">
+                <div class="motto">"Earth Needs Funny Jigsaw"</div>
             </div>
         </div>
     </div>
