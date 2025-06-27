@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function ResourcesPage() {
   return (
-    <main className="min-h-screen" style={{ backgroundColor: '#02AFB7', color: '#F5CB76' }}>
+    <main className="min-h-screen" style={{ backgroundColor: '#93B8D4', color: '#F5CB76' }}>
       {/* Language Toggle Bar */}
       <div className="bg-gray-100 py-2">
         <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
@@ -92,15 +92,17 @@ export default function ResourcesPage() {
             </div>
           </div>
 
-          {/* What I Can Help Connect */}
+          {/* What I Can Help Connect - Optimized Layout */}
           <div className="bg-black/20 p-12 rounded-xl">
-            <h3 className="font-serif text-2xl font-bold text-center mb-8" style={{ color: '#F5CB76' }}>
+            <h3 className="font-serif text-2xl font-bold text-center mb-12" style={{ color: '#F5CB76' }}>
               我能帮助链接的资源
             </h3>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h4 className="font-semibold text-lg mb-4" style={{ color: '#F5CB76' }}>🏛️ 法律专业资源</h4>
-                <ul className="space-y-2 text-sm" style={{ color: '#F5CB76' }}>
+            <div className="space-y-8">
+              <div className="bg-white/10 p-6 rounded-lg">
+                <h4 className="font-semibold text-xl mb-6 flex items-center" style={{ color: '#F5CB76' }}>
+                  🏛️ 法律专业资源
+                </h4>
+                <ul className="space-y-3 text-base leading-relaxed" style={{ color: '#F5CB76' }}>
                   <li>• 各地优秀律师推荐与对接</li>
                   <li>• 不同专业领域法律专家咨询</li>
                   <li>• 法律实务经验分享与交流</li>
@@ -108,9 +110,11 @@ export default function ResourcesPage() {
                   <li>• 法律职业发展指导与建议</li>
                 </ul>
               </div>
-              <div>
-                <h4 className="font-semibold text-lg mb-4" style={{ color: '#F5CB76' }}>🌍 生活社交资源</h4>
-                <ul className="space-y-2 text-sm" style={{ color: '#F5CB76' }}>
+              <div className="bg-white/10 p-6 rounded-lg">
+                <h4 className="font-semibold text-xl mb-6 flex items-center" style={{ color: '#F5CB76' }}>
+                  🌍 生活社交资源
+                </h4>
+                <ul className="space-y-3 text-base leading-relaxed" style={{ color: '#F5CB76' }}>
                   <li>• 海外留学生活经验分享</li>
                   <li>• 潜水爱好者群体连接</li>
                   <li>• 互联网行业人脉推荐</li>
@@ -211,21 +215,23 @@ export default function ResourcesPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="/" 
+              href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/`}
               className="bg-white/20 text-current px-8 py-3 rounded-lg font-medium transition-colors hover:bg-white/30"
               style={{ color: '#F5CB76' }}
             >
               返回首页
             </a>
             <a 
-              href="/about" 
-              className="bg-black text-pink-400 px-8 py-3 rounded-lg font-medium transition-colors hover:bg-gray-800"
+              href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/about`}
+              className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
+              style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
             >
               个人介绍
             </a>
             <a 
-              href="/contact" 
-              className="bg-black text-pink-400 px-8 py-3 rounded-lg font-medium transition-colors hover:bg-gray-800"
+              href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/contact`}
+              className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
+              style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
             >
               联系方式
             </a>

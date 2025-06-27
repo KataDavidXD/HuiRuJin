@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen" style={{ backgroundColor: '#02AFB7', color: '#F5CB76' }}>
+    <main className="min-h-screen" style={{ backgroundColor: '#93B8D4', color: '#F5CB76' }}>
       {/* Language Toggle Bar */}
       <div className="bg-gray-100 py-2">
         <div className="max-w-6xl mx-auto px-4 flex justify-end">
@@ -41,7 +41,7 @@ export default function HomePage() {
               中文
             </span>
             <a 
-              href="/en" 
+              href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/en`}
               className="px-3 py-1 rounded bg-gray-200 text-gray-700 hover:bg-gray-300 text-sm font-medium transition-colors"
             >
               English
@@ -83,26 +83,29 @@ export default function HomePage() {
               </p>
               
               {/* New Button Layout */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a 
-                  href="/about" 
-                  className="bg-black text-pink-400 px-8 py-3 rounded-lg font-medium transition-colors hover:bg-gray-800"
-                >
-                  个人介绍
-                </a>
-                <a 
-                  href="/resources" 
-                  className="bg-black text-pink-400 px-8 py-3 rounded-lg font-medium transition-colors hover:bg-gray-800"
-                >
-                  能帮助链接的资源
-                </a>
-                <a 
-                  href="/contact" 
-                  className="bg-black text-pink-400 px-8 py-3 rounded-lg font-medium transition-colors hover:bg-gray-800"
-                >
-                  联系方式
-                </a>
-              </div>
+                             <div className="flex flex-col sm:flex-row gap-4">
+                 <a 
+                   href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/about`}
+                   className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
+                   style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
+                 >
+                   个人介绍
+                 </a>
+                 <a 
+                   href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/resources`}
+                   className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
+                   style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
+                 >
+                   能帮助链接的资源
+                 </a>
+                 <a 
+                   href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/contact`}
+                   className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
+                   style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
+                 >
+                   联系方式
+                 </a>
+               </div>
             </div>
           </div>
         </div>

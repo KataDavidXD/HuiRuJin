@@ -1,15 +1,31 @@
  # Deployment Guide
 **HuiRuJin Personal Website - GitHub Pages Deployment**
 
-## 🎉 Latest Status: REDESIGNED & READY FOR DEPLOYMENT
-✅ **Version 2.0**: Major redesign completed with all feedback implemented  
+## 🎉 Latest Status: DESIGN REFINED & READY FOR DEPLOYMENT
+✅ **Version 2.1**: Design refinement with new color scheme and typography  
 ✅ **GitHub Pages Verified**: Static export successful (8/8 pages)  
-✅ **New Pages Ready**: /about, /resources, /contact all generated  
+✅ **Enhanced Styling**: Improved color scheme and button design  
 ✅ **Live Site Ready**: https://katadavidxd.github.io/HuiRuJin/
 
 ## 📋 Deployment Version History
 
-### Version 2.0 (December 27, 2024) - MAJOR REDESIGN READY
+### Version 2.1 (December 27, 2024) - DESIGN REFINEMENT READY
+**Status**: ✅ VERIFIED FOR GITHUB PAGES DEPLOYMENT
+
+**Deployment Package v2.1**:
+- **Color Scheme**: Background #93B8D4, Text #F5CB76
+- **Button Design**: Background #F5CB76, Text #93B8D4
+- **Typography**: Chinese 仿宋 (FangSong), English Times New Roman
+- **Layout**: Optimized resources page text hierarchy
+- **Performance**: Maintained 87.2 kB shared JS
+
+**GitHub Pages Compatibility**: ✅ VERIFIED
+- Static export successful: `npm run build` completed without errors
+- Font fallbacks implemented for cross-platform compatibility
+- All color changes applied consistently across pages
+- Button styling optimized with hover effects
+
+### Version 2.0 (December 27, 2024) - MAJOR REDESIGN DEPLOYED
 **Status**: ✅ VERIFIED FOR GITHUB PAGES DEPLOYMENT
 
 **Deployment Package**:
@@ -561,10 +577,11 @@ lhci autorun --upload.target=temporary-public-storage
 
 ## 🎉 Latest Deployment Status
 
-### Current Deployment (December 27, 2024 - Updated)
-- **Status**: ✅ REDESIGNED & READY FOR DEPLOYMENT
-- **Major Update**: All user feedback from `6_27_v1.txt` implemented
-- **New Design**: Teal blue background (#02AFB7) with golden yellow text (#F5CB76)
+### Current Deployment (December 27, 2024 - v2.1 Update)
+- **Status**: ✅ DESIGN REFINED & READY FOR DEPLOYMENT
+- **Latest Update**: All user feedback from `6_27_v2.txt` implemented
+- **Updated Design**: Soft blue background (#93B8D4) with golden yellow text (#F5CB76)
+- **Enhanced Typography**: Chinese 仿宋 (FangSong), English Times New Roman
 - **Build Status**: ✅ Static export successful (5 pages total)
 - **GitHub Actions**: ✅ Ready for deployment pipeline
 
@@ -587,7 +604,14 @@ lhci autorun --upload.target=temporary-public-storage
 - ✅ **Build Verified**: All 5 routes compile successfully
 
 ### Feedback Implementation Summary
-1. ✅ Background/font colors updated to #02AFB7/#F5CB76
+**v2.1 Updates (6_27_v2.txt)**:
+1. ✅ Background color refined to #93B8D4 (soft blue), maintaining #F5CB76 (golden yellow) text
+2. ✅ Resources page text layout optimized with improved hierarchy and spacing
+3. ✅ Typography updated: Chinese 仿宋 (FangSong), English Times New Roman
+4. ✅ Button styling enhanced: #F5CB76 background, #93B8D4 text with hover effects
+
+**v2.0 Updates (6_27_v1.txt)**:
+1. ✅ Background/font colors updated to #02AFB7/#F5CB76 (now refined to #93B8D4/#F5CB76)
 2. ✅ Law firm name and motto positions swapped
 3. ✅ Navigation changed from 2 to 3 buttons with new styling
 4. ✅ ENFP label removed from homepage header

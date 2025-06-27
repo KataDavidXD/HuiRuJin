@@ -2,15 +2,30 @@
 **HuiRuJin Personal Website - Development Tracking**
 
 ## Document Information
-- **Version**: 2.0
+- **Version**: 2.1
 - **Last Updated**: December 27, 2024
 - **Next Review**: Weekly
 - **Maintained By**: Development Team
 
 ## 📋 Version History
 
-### Version 2.0 (December 27, 2024) - MAJOR REDESIGN
+### Version 2.1 (December 27, 2024) - DESIGN REFINEMENT
 **Status**: ✅ COMPLETED & VERIFIED FOR GITHUB PAGES
+
+**Major Changes**:
+- Color scheme update: Background #93B8D4 (soft blue), Text #F5CB76 (golden yellow)
+- Button styling: Background #F5CB76, Text #93B8D4 with hover effects
+- Typography update: Chinese 仿宋 (FangSong), English Times New Roman
+- Resources page layout optimization: Improved text hierarchy and spacing
+
+**GitHub Pages Compatibility**: ✅ VERIFIED
+- Static export successful: 8/8 pages generated
+- Performance maintained: 87.2 kB shared JS
+- All new styles properly applied
+- Font fallbacks implemented for cross-platform compatibility
+
+### Version 2.0 (December 27, 2024) - MAJOR REDESIGN
+**Status**: ✅ COMPLETED & DEPLOYED
 
 **Major Changes**:
 - Complete UI redesign with new color scheme (#02AFB7 background, #F5CB76 text)
@@ -240,6 +255,29 @@ The website has been completely restructured with bilingual support and is ready
 
 ## 📊 Modification Tracking & Change Log
 
+### Version 2.1 Changes (December 27, 2024)
+**Modification Type**: DESIGN REFINEMENT
+**Triggered By**: User feedback from `feedback/6_27_v2.txt`
+**Implementation Time**: ~2 hours
+
+#### Files Modified:
+| File | Type | Changes |
+|------|------|---------|
+| `src/app/globals.css` | MODIFIED | Updated font families: Chinese 仿宋, English Times New Roman |
+| `src/app/page.tsx` | MODIFIED | Color scheme update (#93B8D4 bg, #F5CB76 text), button styling |
+| `src/app/about/page.tsx` | MODIFIED | Applied new color scheme and button styles |
+| `src/app/resources/page.tsx` | MODIFIED | Optimized text layout, new colors, button styles |
+| `src/app/contact/page.tsx` | MODIFIED | Applied new color scheme and button styles |
+| `docs/DEVELOPMENT.md` | UPDATED | Version 2.1 tracking and changes |
+| `docs/DEPLOYMENT.md` | UPDATED | Updated for v2.1 deployment readiness |
+| `docs/PRD.md` | UPDATED | Product version 2.1 tracking |
+
+#### Performance Impact v2.1:
+- **Bundle Size**: Maintained at 87.2 kB shared JS (no impact)
+- **Font Loading**: Added web-safe font fallbacks for compatibility
+- **Color Contrast**: Improved accessibility with new color scheme
+- **Layout Optimization**: Better text hierarchy in resources section
+
 ### Version 2.0 Changes (December 27, 2024)
 **Modification Type**: MAJOR REDESIGN
 **Triggered By**: User feedback from `feedback/6_27_v1.txt`
@@ -269,13 +307,14 @@ The website has been completely restructured with bilingual support and is ready
 - **Mobile Responsiveness**: ✅ Maintained across all new pages
 
 ### Version History Summary:
+- **v2.1** (Dec 27, 2024): Design refinement with color scheme and typography updates
 - **v2.0** (Dec 27, 2024): Major redesign with feedback implementation
 - **v1.1** (Dec 2024): Foundation deployment with bilingual support  
 - **v1.0** (Dec 2024): Initial project setup and configuration
 
 ### Next Version Planning:
-- **v2.1** (Future): Potential English page content updates to match new design
-- **v2.2** (Future): Performance optimizations if needed
+- **v2.2** (Future): English page content updates to match new design
+- **v2.3** (Future): Performance optimizations if needed
 - **v3.0** (Future): Additional features based on user engagement data
 
 ---

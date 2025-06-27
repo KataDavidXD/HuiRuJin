@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <main className="min-h-screen" style={{ backgroundColor: '#02AFB7', color: '#F5CB76' }}>
+    <main className="min-h-screen" style={{ backgroundColor: '#93B8D4', color: '#F5CB76' }}>
       {/* Language Toggle Bar */}
       <div className="bg-gray-100 py-2">
         <div className="max-w-6xl mx-auto px-4 flex justify-between items-center">
@@ -180,21 +180,23 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="/" 
+              href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/`}
               className="bg-white/20 text-current px-8 py-3 rounded-lg font-medium transition-colors hover:bg-white/30"
               style={{ color: '#F5CB76' }}
             >
               返回首页
             </a>
             <a 
-              href="/resources" 
-              className="bg-black text-pink-400 px-8 py-3 rounded-lg font-medium transition-colors hover:bg-gray-800"
+              href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/resources`}
+              className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
+              style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
             >
               能帮助链接的资源
             </a>
             <a 
-              href="/contact" 
-              className="bg-black text-pink-400 px-8 py-3 rounded-lg font-medium transition-colors hover:bg-gray-800"
+              href={`${process.env.NODE_ENV === 'production' ? '/HuiRuJin' : ''}/contact`}
+              className="px-8 py-3 rounded-lg font-medium transition-colors hover:opacity-80"
+              style={{ backgroundColor: '#F5CB76', color: '#93B8D4' }}
             >
               联系方式
             </a>

@@ -57,13 +57,23 @@
     @apply bg-background text-foreground;
   }
   
-  /* Custom font families */
+  /* Custom font families for v2.1 update */
   .font-serif {
-    font-family: var(--font-playfair), Georgia, serif;
+    font-family: "Times New Roman", Georgia, serif;
   }
   
   .font-chinese {
-    font-family: var(--font-noto-sans-sc), "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-family: "FangSong", "仿宋", "STFangSong", "Microsoft YaHei", sans-serif;
+  }
+  
+  /* Apply fonts globally */
+  body {
+    font-family: "FangSong", "仿宋", "STFangSong", "Microsoft YaHei", sans-serif;
+  }
+  
+  /* English text specifically */
+  [lang="en"], .lang-en {
+    font-family: "Times New Roman", Georgia, serif;
   }
 }
 
